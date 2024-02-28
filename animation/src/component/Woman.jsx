@@ -13,7 +13,7 @@ const Woman =(props)=> {
   const { actions, names } = useAnimations(animations, group)
   
   useEffect(()=>{
-    actions[names[0]].reset().fadeIn(0.5).play()
+    actions[names[2]].reset().fadeIn(0.5).play()
   },[])
   
   return (
